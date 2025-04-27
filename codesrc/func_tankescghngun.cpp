@@ -58,7 +58,7 @@ BEGIN_DATADESC(CFuncEscghnGun)
 DEFINE_SOUNDPATCH(m_pGunFiringSound),
 DEFINE_FIELD(m_flNextHeavyShotTime, FIELD_TIME),
 DEFINE_FIELD(m_bIsFiring, FIELD_BOOLEAN),
-DEFINE_KEYFIELD(m_iszAirboatGunModel, FIELD_STRING, "."),
+DEFINE_KEYFIELD(m_iszAirboatGunModel, FIELD_STRING, "airboat_gun_model"),
 DEFINE_FIELD(m_flLastImpactEffectTime, FIELD_TIME),
 
 END_DATADESC()
