@@ -112,6 +112,11 @@ void CFuncEscghnGun::Activate()
 			m_nGunBarrelAttachment2 = m_hAirboatGunModel->LookupAttachment("muzzle2");
 			m_nGunBarrelAttachment3 = m_hAirboatGunModel->LookupAttachment("muzzle3");
 		}
+		if ((m_nGunBarrelAttachment == 0) || (m_nGunBarrelAttachment1 == 0) || (m_nGunBarrelAttachment2 == 0) || (m_nGunBarrelAttachment3 == 0))
+		{
+			Warning("Attachments not FOUND!!!\n");
+		}
+		
 	}
 }
 
@@ -138,7 +143,6 @@ void CFuncEscghnGun::DestroySounds()
 	controller.SoundDestroy(m_pGunFiringSound);
 	m_pGunFiringSound = NULL;
 }
-
 
 //-----------------------------------------------------------------------------
 // Stop Firing sounds
@@ -318,8 +322,10 @@ void CFuncEscghnGun::Fire(int bulletCount, const Vector& barrelEnd, const Vector
 	FireBulletsInfo_t info2;
 	FireBulletsInfo_t info3;
 
+	//Warning("FORWARD VEC: X %.2f Y %.2f Z %.2f", forward.x, forward.y, forward.z);
 	// info fire
 	info.m_vecSrc = WorldBarrelPosition();
+	//info.m_vecDirShooting = forward + Vector(0.025f, 0.025f, 0.020f);
 	info.m_vecDirShooting = forward;
 	info.m_flDistance = 4096;
 	info.m_iAmmoType = ammoType;
@@ -346,7 +352,6 @@ void CFuncEscghnGun::Fire(int bulletCount, const Vector& barrelEnd, const Vector
 	info3.m_iAmmoType = ammoType;
 	info3.m_iTracerFreq = ESCGHNGUN_TRACEFREQENCY;
 
-	//Warning("Fire barrelEnd: X: %.2f Y: %.2f Z: %.2f \n", barrelEnd.x, barrelEnd.y, barrelEnd.z);
 	if (gpGlobals->curtime >= m_flNextHeavyShotTime)
 	{
 		info.m_iShots = 3;
