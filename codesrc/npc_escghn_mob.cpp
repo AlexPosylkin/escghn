@@ -1,4 +1,4 @@
-//=========			NPC Gehenna mob (Blue Archive) by AlexPos	   ============//
+//===================NPC Gehenna mob (Blue Archive) by AlexPos=================//
 //
 // Purpose: The main fighting force of the Prefect's team. Weak but numerous.  //
 //
