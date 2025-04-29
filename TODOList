@@ -1,0 +1,11 @@
+HIGH:
+[ ] - Implement a watercraft class
+[ ] - Implement a class of NPC mobs
+[X] - Implement a shupogaki turret class
+
+MEDIUM:
+[ ] - Update VMT files
+[ ] - Update animation files
+
+LOW:
+[ ] - Implement main menu and fonts
