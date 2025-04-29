@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "escghn/escghn_mob_01_body"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 0.15 0.15 0.15 ]"
+	"$envmapcontrast" .5
+	"$envmapsaturation" .8
+}

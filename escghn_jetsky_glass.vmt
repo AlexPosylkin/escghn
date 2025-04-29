@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "escghn/escghn_jetsky_glass"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "glass"
+	"$envmapmask" "escghn/escghn_jetsky_glass_mask"	
+	"$translucent" 1
+	"$multipass" 1
+	"$nocull" 1
+	"$envmaptint" "[ .95 .95 .95]"
+}

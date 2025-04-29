@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture"  "escghn/escghn_floor_01"
+	"$surfaceprop"  "tile"
+	"$bumpmap"	"escghn/escghn_floor_01_normal"
+	"$normalmapalphaenvmapmask" 1 // NEW REFLECTION MASK RGB8888 with Alpha Normal Map
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 0.85 0.85 0.85 ]"
+	"$envmapcontrast" 0
+	"$envmapsaturation" 0	
+}
