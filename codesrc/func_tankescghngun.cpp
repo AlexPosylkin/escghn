@@ -114,9 +114,8 @@ void CFuncEscghnGun::Activate()
 		}
 		if ((m_nGunBarrelAttachment == 0) || (m_nGunBarrelAttachment1 == 0) || (m_nGunBarrelAttachment2 == 0) || (m_nGunBarrelAttachment3 == 0))
 		{
-			Warning("Attachments not FOUND!!!\n");
-		}
-		
+			Warning("Attachments on this model not FOUND!!!\n");
+		}		
 	}
 }
 
@@ -132,7 +131,7 @@ void CFuncEscghnGun::CreateSounds()
 	{
 		m_pGunFiringSound = controller.SoundCreate(filter, entindex(), "Airboat.FireGunLoop");
 
-		controller.Play(m_pGunFiringSound, 0, 180); // Pitch 180 for fast shooting sound effect
+		controller.Play(m_pGunFiringSound, 0, 160); // Pitch 160 for fast shooting sound effect
 	}
 }
 
@@ -187,7 +186,6 @@ void CFuncEscghnGun::ControllerPostFrame(void)
 			StopFiring();
 		}
 	}
-
 	BaseClass::ControllerPostFrame();
 }
 
@@ -307,10 +305,15 @@ void CFuncEscghnGun::DoMuzzleFlash(void)
 // Fires bullets
 //-----------------------------------------------------------------------------
 #define ESCGHNGUN_HEAVY_SHOT_INTERVAL	0.2f
-#define ESCGHNGUN_TRACEFREQENCY			3
+#define ESCGHNGUN_TRACEFREQENCY			2
 #define ESCGHNGUN_VECTOR_CONE_01		Vector(0.014,0.013,0.018) // Pretty small conus
 #define ESCGHNGUN_VECTOR_CONE_02		Vector(0.024,0.023,0.028) // Medium conus
 #define ESCGHNGUN_VECTOR_CONE_03		Vector(0.031,0.030,0.032) // Large conus
+#define ESCGHNGUN_BARRELPOS_00			WorldBarrelPosition()
+#define ESCGHNGUN_BARRELPOS_01			WorldBarrelPosition1()
+#define ESCGHNGUN_BARRELPOS_02			WorldBarrelPosition2()
+#define ESCGHNGUN_BARRELPOS_03			WorldBarrelPosition3()
+
 
 void CFuncEscghnGun::Fire(int bulletCount, const Vector& barrelEnd, const Vector& forward, CBaseEntity* pAttacker, bool bIgnoreSpread)
 {
@@ -324,7 +327,7 @@ void CFuncEscghnGun::Fire(int bulletCount, const Vector& barrelEnd, const Vector
 
 	//Warning("FORWARD VEC: X %.2f Y %.2f Z %.2f", forward.x, forward.y, forward.z);
 	// info fire
-	info.m_vecSrc = WorldBarrelPosition();
+	info.m_vecSrc = ESCGHNGUN_BARRELPOS_00;
 	//info.m_vecDirShooting = forward + Vector(0.025f, 0.025f, 0.020f);
 	info.m_vecDirShooting = forward;
 	info.m_flDistance = 4096;
@@ -332,21 +335,21 @@ void CFuncEscghnGun::Fire(int bulletCount, const Vector& barrelEnd, const Vector
 	info.m_iTracerFreq = ESCGHNGUN_TRACEFREQENCY;
 
 	// info fire1
-	info1.m_vecSrc = WorldBarrelPosition1();
+	info1.m_vecSrc = ESCGHNGUN_BARRELPOS_01;
 	info1.m_vecDirShooting = forward;
 	info1.m_flDistance = 4096;
 	info1.m_iAmmoType = ammoType;
 	info1.m_iTracerFreq = ESCGHNGUN_TRACEFREQENCY;
 
 	// info fire2
-	info2.m_vecSrc = WorldBarrelPosition2();
+	info2.m_vecSrc = ESCGHNGUN_BARRELPOS_02;
 	info2.m_vecDirShooting = forward;
 	info2.m_flDistance = 4096;
 	info2.m_iAmmoType = ammoType;
 	info2.m_iTracerFreq = ESCGHNGUN_TRACEFREQENCY;
 
 	// info fire3
-	info3.m_vecSrc = WorldBarrelPosition3();
+	info3.m_vecSrc = ESCGHNGUN_BARRELPOS_03;
 	info3.m_vecDirShooting = forward;
 	info3.m_flDistance = 4096;
 	info3.m_iAmmoType = ammoType;
@@ -354,34 +357,34 @@ void CFuncEscghnGun::Fire(int bulletCount, const Vector& barrelEnd, const Vector
 
 	if (gpGlobals->curtime >= m_flNextHeavyShotTime)
 	{
-		info.m_iShots = 3;
+		info.m_iShots = 2;
 		info.m_vecSpread = ESCGHNGUN_VECTOR_CONE_01;
 		info.m_flDamageForceScale = 1000.0f;
 
-		info1.m_iShots = 3;
+		info1.m_iShots = 2;
 		info1.m_vecSpread = ESCGHNGUN_VECTOR_CONE_01;
 		info1.m_flDamageForceScale = 1000.0f;
 
-		info2.m_iShots = 3;
+		info2.m_iShots = 2;
 		info2.m_vecSpread = ESCGHNGUN_VECTOR_CONE_01;
 		info2.m_flDamageForceScale = 1000.0f;
 
-		info3.m_iShots = 3;
+		info3.m_iShots = 2;
 		info3.m_vecSpread = ESCGHNGUN_VECTOR_CONE_01;
 		info3.m_flDamageForceScale = 1000.0f;
 	}
 	else
 	{
-		info.m_iShots = 6;
+		info.m_iShots = 4;
 		info.m_vecSpread = ESCGHNGUN_VECTOR_CONE_01;
 
-		info1.m_iShots = 6;
+		info1.m_iShots = 4;
 		info1.m_vecSpread = ESCGHNGUN_VECTOR_CONE_01;
 
-		info2.m_iShots = 6;
+		info2.m_iShots = 4;
 		info2.m_vecSpread = ESCGHNGUN_VECTOR_CONE_01;
 
-		info3.m_iShots = 6;
+		info3.m_iShots = 4;
 		info3.m_vecSpread = ESCGHNGUN_VECTOR_CONE_01;
 	}
 
@@ -392,10 +395,11 @@ void CFuncEscghnGun::Fire(int bulletCount, const Vector& barrelEnd, const Vector
 
 	DoMuzzleFlash();
 
+	/*
 	if (gpGlobals->curtime >= m_flNextHeavyShotTime)
 	{
 		m_flNextHeavyShotTime = gpGlobals->curtime + ESCGHNGUN_HEAVY_SHOT_INTERVAL;
-	}
+	}*/
 }
 
 //-----------------------------------------------------------------------------
