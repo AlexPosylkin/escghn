@@ -96,7 +96,7 @@ END_SEND_TABLE()
 //---------------------------------------------------------
 // Save/Restore
 //---------------------------------------------------------
-BEGIN_DATADESC(CNPC_Escghmob)
+BEGIN_DATADESC(CNPC_Escghmob)  // Client (Episodic) c_escghn_mob.cpp 
 //						m_FuncTankBehavior
 	DEFINE_OUTPUT(m_OnPlayerUse, "OnPlayerUse"),
 	DEFINE_USEFUNC(UseFunc),
