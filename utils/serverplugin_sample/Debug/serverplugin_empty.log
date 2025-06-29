@@ -1,6 +1,0 @@
-﻿  Running VPC CRC Check - serverplugin_empty.vpc
-     Creating library .\Debug\.\serverplugin_empty.lib and object .\Debug\.\serverplugin_empty.exp
-  serverplugin_empty.vcxproj -> D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\utils\serverplugin_sample\Debug\serverplugin_empty.dll
-  Publishing to ..\..\..\game\bin\.
-          1 file(s) copied.
-          1 file(s) copied.

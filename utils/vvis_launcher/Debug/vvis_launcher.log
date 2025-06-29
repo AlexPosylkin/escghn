@@ -1,7 +1,0 @@
-﻿  Running VPC CRC Check - vvis_launcher.vpc
-  StdAfx.cpp
-  vvis_launcher.cpp
-  LINK : .\Debug\.\\vvis.exe not found or not built by the last incremental link; performing full link
-     Creating library .\Debug\.\vvis.lib and object .\Debug\.\vvis.exp
-  vvis_launcher.vcxproj -> D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\utils\vvis_launcher\Debug\vvis.exe
-  Publishing to ..\..\..\game\bin\.
