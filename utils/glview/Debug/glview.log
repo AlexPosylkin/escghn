@@ -1,0 +1,4 @@
+﻿  Running VPC CRC Check - glview.vpc
+     Creating library .\Debug\.\glview.lib and object .\Debug\.\glview.exp
+  glview.vcxproj -> D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\utils\glview\Debug\glview.exe
+  Publishing to ..\..\..\game\bin\.

@@ -1,0 +1,8 @@
+﻿LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+libucrtd.lib(hypot.obj) : warning LNK4006: _hypot already defined in particles.lib(particle_sort.obj); second definition ignored
+     Creating library .\Debug_mod_hl2\\client.lib and object .\Debug_mod_hl2\\client.exp
+.\Debug_mod_hl2\\client.dll : warning LNK4088: image being generated due to /FORCE option; image may not run
+  client_hl2.vcxproj -> D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\game\client\Debug_mod_hl2\client.dll
+  Publishing to ..\..\..\game\mod_hl2\bin\.
+          1 file(s) copied.
+          1 file(s) copied.
