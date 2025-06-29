@@ -1,0 +1,6 @@
+^D:\PROJECTS\PROGRAMMING\SOURCEMOD\ETALON\SRC\PUBLIC\TIER0\POINTEROVERRIDE.ASM
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\ml.exe" /safeseh /c /Cp /Zi /Fo"Release_dx9_mod_episodic\\pointeroverride.obj" "D:\PROJECTS\PROGRAMMING\SOURCEMOD\etalon\src\public\tier0\pointeroverride.asm"
+^D:\PROJECTS\PROGRAMMING\SOURCEMOD\ETALON\SRC\MATERIALSYSTEM\STDSHADERS\GAME_SHADER_DX9_EPISODIC.VPC
+if exist "..\..\devtools\bin\vpc.exe" "..\..\devtools\bin\vpc.exe" -crc2 "game_shader_dx9_episodic.vcxproj"
+if ERRORLEVEL 1 exit /b 1
+echo crc_complete > D:\PROJECTS\PROGRAMMING\SOURCEMOD\etalon\src\materialsystem\stdshaders\game_shader_dx9_episodic.vpc.sentinel
