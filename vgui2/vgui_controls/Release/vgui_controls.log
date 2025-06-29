@@ -1,78 +1,13 @@
-﻿  AnalogBar.cpp
-  AnimatingImagePanel.cpp
-  AnimationController.cpp
-  BitmapImagePanel.cpp
-  BuildFactoryHelper.cpp
-  BuildGroup.cpp
-  BuildModeDialog.cpp
-  Button.cpp
-  CheckButton.cpp
-  CheckButtonList.cpp
-  CircularProgressBar.cpp
-  ComboBox.cpp
-  consoledialog.cpp
-  ControllerMap.cpp
-  controls.cpp
-  CvarToggleCheckButton.cpp
-  DirectorySelectDialog.cpp
-  Divider.cpp
-  EditablePanel.cpp
-  ExpandButton.cpp
-  FileOpenDialog.cpp
-  FileOpenStateMachine.cpp
-  filesystem_helpers.cpp
-  FocusNavGroup.cpp
-  Frame.cpp
-  GraphPanel.cpp
-  HTML.cpp
-  Image.cpp
-  ImageList.cpp
-  ImagePanel.cpp
-  InputDialog.cpp
-  KeyBindingHelpDialog.cpp
-  KeyBoardEditorDialog.cpp
-  KeyRepeat.cpp
-  Label.cpp
-  ListPanel.cpp
-  ListViewPanel.cpp
-  Menu.cpp
-  MenuBar.cpp
-  MenuButton.cpp
-  MenuItem.cpp
-  MessageBox.cpp
-  MessageDialog.cpp
-  Panel.cpp
-  PanelListPanel.cpp
-  PerforceFileExplorer.cpp
-  PerforceFileList.cpp
-  perforcefilelistframe.cpp
-  ProgressBar.cpp
-  ProgressBox.cpp
-  PropertyDialog.cpp
-  PropertyPage.cpp
-  PropertySheet.cpp
-  QueryBox.cpp
-  RadioButton.cpp
-  RichText.cpp
-  RotatingProgressBar.cpp
-  savedocumentquery.cpp
-  ScalableImagePanel.cpp
-  ScrollableEditablePanel.cpp
-  ScrollBar.cpp
-  ScrollBarSlider.cpp
-  SectionedListPanel.cpp
-  Slider.cpp
-  Splitter.cpp
-  subrectimage.cpp
-  TextEntry.cpp
-  TextImage.cpp
-  ToggleButton.cpp
-  Tooltip.cpp
-  ToolWindow.cpp
-  TreeView.cpp
-  TreeViewListControl.cpp
-  URLLabel.cpp
-  vgui_key_translation.cpp
-  WizardPanel.cpp
-  WizardSubPanel.cpp
-  vgui_controls.vcxproj -> D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\lib\public\vgui_controls.lib
+﻿  Unable to load D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\devtools\bin\vpc.exe for comparison.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: The command "if EXIST ..\..\lib\public\.\vgui_controls.lib ( for /f "delims=" %%A in ('attrib "..\..\lib\public\.\vgui_controls.lib"') do set valveTmpIsReadOnly="%%A"
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: ) else ( if not EXIST ..\..\lib\public\. mkdir ..\..\lib\public\. )
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: set valveTmpIsReadOnlyLetter=%valveTmpIsReadOnly:~6,1%
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: if "%valveTmpIsReadOnlyLetter%"=="R" (
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073:     attrib -r ..\..\lib\public\.\vgui_controls.lib
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073:     ..\..\devtools\bin\gnu\touch.exe -d "1999-01-01" ..\..\lib\public\.\vgui_controls.lib
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073:     attrib +r ..\..\lib\public\.\vgui_controls.lib
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: )
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: if exist "..\..\devtools\bin\vpc.exe" "..\..\devtools\bin\vpc.exe" -crc2 "vgui_controls.vcxproj"
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: if ERRORLEVEL 1 exit /b 1
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: 
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: :VCEnd" exited with code 1.

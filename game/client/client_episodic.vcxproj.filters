@@ -3412,9 +3412,6 @@
     <ClCompile Include="toolframework_client.cpp">
       <Filter>Tool Framework</Filter>
     </ClCompile>
-    <ClCompile Include="c_escgh_mob.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

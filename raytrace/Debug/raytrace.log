@@ -1,1 +1,5 @@
-﻿  raytrace.vcxproj -> D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\lib\public\raytrace.lib
+﻿  Running VPC CRC Check - raytrace.vpc
+  raytrace.cpp
+  trace2.cpp
+  trace3.cpp
+  raytrace.vcxproj -> D:\PROJECTS\PROGRAMMING\SOURCEMOD\sp\src\lib\public\raytrace.lib

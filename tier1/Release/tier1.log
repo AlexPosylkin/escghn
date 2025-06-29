@@ -1,39 +1,13 @@
-﻿  bitbuf.cpp
-  byteswap.cpp
-  characterset.cpp
-  checksum_crc.cpp
-  checksum_md5.cpp
-  checksum_sha1.cpp
-  commandbuffer.cpp
-  convar.cpp
-  datamanager.cpp
-  diff.cpp
-  generichash.cpp
-  ilocalize.cpp
-  interface.cpp
-  KeyValues.cpp
-  kvpacker.cpp
-  lzmaDecoder.cpp
-  mempool.cpp
-  memstack.cpp
-  NetAdr.cpp
-  newbitbuf.cpp
-  rangecheckedvar.cpp
-  reliabletimer.cpp
-  snappy-sinksource.cpp
-  snappy-stubs-internal.cpp
-  snappy.cpp
-  sparsematrix.cpp
-  splitstring.cpp
-  stringpool.cpp
-  strtools.cpp
-  tier1.cpp
-  tokenreader.cpp
-  uniqueid.cpp
-  utlbuffer.cpp
-  utlbufferutil.cpp
-  utlstring.cpp
-  utlsymbol.cpp
-D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\tier1\snappy-stubs-internal.h(152,1): warning C4722: 'snappy::LogMessageCrash::~LogMessageCrash': destructor never returns, potential memory leak
-  processor_detect.cpp
-  tier1.vcxproj -> D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\lib\public\tier1.lib
+﻿  Unable to load D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\devtools\bin\vpc.exe for comparison.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: The command "if EXIST ..\lib\public\.\tier1.lib ( for /f "delims=" %%A in ('attrib "..\lib\public\.\tier1.lib"') do set valveTmpIsReadOnly="%%A"
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: ) else ( if not EXIST ..\lib\public\. mkdir ..\lib\public\. )
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: set valveTmpIsReadOnlyLetter=%valveTmpIsReadOnly:~6,1%
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: if "%valveTmpIsReadOnlyLetter%"=="R" (
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073:     attrib -r ..\lib\public\.\tier1.lib
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073:     ..\devtools\bin\gnu\touch.exe -d "1999-01-01" ..\lib\public\.\tier1.lib
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073:     attrib +r ..\lib\public\.\tier1.lib
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: )
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: if exist "..\devtools\bin\vpc.exe" "..\devtools\bin\vpc.exe" -crc2 "tier1.vcxproj"
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: if ERRORLEVEL 1 exit /b 1
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: 
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: :VCEnd" exited with code 1.

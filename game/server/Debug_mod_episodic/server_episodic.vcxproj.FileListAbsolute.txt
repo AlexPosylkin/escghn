@@ -1,1 +1,2 @@
 D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\game\server\Debug_mod_episodic\server.dll
+D:\PROJECTS\PROGRAMMING\SOURCEMOD\sp\src\game\server\Debug_mod_episodic\server.dll
