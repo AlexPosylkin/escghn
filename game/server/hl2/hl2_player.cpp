@@ -80,9 +80,9 @@ extern int gEvilImpulse101;
 // movement modification ESCGHN
 ConVar sv_autojump( "sv_autojump", "0" );
 
-ConVar hl2_walkspeed( "hl2_walkspeed", "110" );
-ConVar hl2_normspeed( "hl2_normspeed", "110" );
-ConVar hl2_sprintspeed( "hl2_sprintspeed", "160" );
+ConVar hl2_walkspeed( "hl2_walkspeed", "120" );
+ConVar hl2_normspeed( "hl2_normspeed", "120" );
+ConVar hl2_sprintspeed( "hl2_sprintspeed", "180" );
 
 ConVar hl2_darkness_flashlight_factor ( "hl2_darkness_flashlight_factor", "1" );
 
@@ -1194,7 +1194,7 @@ void CHL2_Player::StartAutoSprint()
 //-----------------------------------------------------------------------------
 void CHL2_Player::StartSprinting( void )
 {
-	/*
+	
 	if( m_HL2Local.m_flSuitPower < 10 )
 	{
 		// Don't sprint unless there's a reasonable
@@ -1212,7 +1212,7 @@ void CHL2_Player::StartSprinting( void )
 
 	if( !SuitPower_AddDevice( SuitDeviceSprint ) )
 		return;
-	*/
+	
 
 	CPASAttenuationFilter filter( this );
 	filter.UsePredictionRules();
