@@ -788,6 +788,7 @@ exit 1
     <ClInclude Include="hl2\item_dynamic_resupply.h" />
     <ClInclude Include="..\..\game\shared\episodic\npc_advisor_shared.h" />
     <ClInclude Include="hl2\npc_alyx_episodic.h" />
+    <ClInclude Include="hl2\npc_antlion.h" />
     <ClInclude Include="hl2\npc_attackchopper.h" />
     <ClInclude Include="hl2\npc_barnacle.h" />
     <ClInclude Include="hl2\npc_basescanner.h" />
@@ -1355,6 +1356,9 @@ exit 1
     <ClCompile Include="hl2\monster_dummy.cpp" />
     <ClCompile Include="episodic\npc_advisor.cpp" />
     <ClCompile Include="hl2\npc_alyx_episodic.cpp" />
+    <ClCompile Include="hl2\npc_antlion.cpp" />
+    <ClCompile Include="hl2\npc_antliongrub.cpp" />
+    <ClCompile Include="hl2\npc_antlionguard.cpp" />
     <ClCompile Include="hl2\npc_apcdriver.cpp" />
     <ClCompile Include="hl2\npc_attackchopper.cpp" />
     <ClCompile Include="hl2\npc_barnacle.cpp" />
@@ -1372,6 +1376,8 @@ exit 1
     <ClCompile Include="hl2\npc_combines.cpp" />
     <ClCompile Include="hl2\npc_cranedriver.cpp" />
     <ClCompile Include="hl2\npc_crow.cpp" />
+    <ClCompile Include="hl2\npc_dog.cpp" />
+    <ClCompile Include="hl2\npc_eli.cpp" />
     <ClCompile Include="hl2\npc_enemyfinder.cpp" />
     <ClCompile Include="hl2\npc_fastzombie.cpp" />
     <ClCompile Include="hl2\npc_fisherman.cpp" />

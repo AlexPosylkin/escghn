@@ -75,4 +75,4 @@
   vgui_key_translation.cpp
   WizardPanel.cpp
   WizardSubPanel.cpp
-  vgui_controls.vcxproj -> D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\escghn\lib\public\vgui_controls.lib
+  vgui_controls.vcxproj -> D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\lib\public\vgui_controls.lib

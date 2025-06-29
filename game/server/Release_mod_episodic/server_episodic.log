@@ -1,6 +1,5 @@
-﻿  memoverride.cpp
-     Creating library .\Release_mod_episodic\server.lib and object .\Release_mod_episodic\server.exp
-  server_episodic.vcxproj -> D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\escghn\game\server\Release_mod_episodic\server.dll
+﻿     Creating library .\Release_mod_episodic\server.lib and object .\Release_mod_episodic\server.exp
+  server_episodic.vcxproj -> D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\game\server\Release_mod_episodic\server.dll
   Publishing to ..\..\..\game\mod_episodic\bin\.
           1 file(s) copied.
           1 file(s) copied.

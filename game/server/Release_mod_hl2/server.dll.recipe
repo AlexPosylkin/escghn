@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\escghn\game\server\Release_mod_hl2\server.dll</FullPath>
+      <FullPath>D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\game\server\Release_mod_hl2\server.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

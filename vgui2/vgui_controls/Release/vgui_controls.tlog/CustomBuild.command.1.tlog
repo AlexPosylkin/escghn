@@ -1,4 +1,4 @@
-^D:\PROJECTS\PROGRAMMING\SOURCEMOD\ESCGHN\ESCGHN\VGUI2\VGUI_CONTROLS\VGUI_CONTROLS.VPC
+^D:\PROJECTS\PROGRAMMING\SOURCEMOD\ESCGHN\SP\SRC\VGUI2\VGUI_CONTROLS\VGUI_CONTROLS.VPC
 if exist "..\..\devtools\bin\vpc.exe" "..\..\devtools\bin\vpc.exe" -crc2 "vgui_controls.vcxproj"
 if ERRORLEVEL 1 exit /b 1
 echo crc_complete > D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\vgui2\vgui_controls\vgui_controls.vpc.sentinel

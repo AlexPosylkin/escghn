@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\escghn\game\client\Debug_mod_episodic\client.dll</FullPath>
+      <FullPath>D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\game\client\Debug_mod_episodic\client.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

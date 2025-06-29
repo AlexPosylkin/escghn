@@ -1,2 +1,1 @@
 D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\game\client\Debug_mod_hl2\client.dll
-D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\escghn\game\client\Debug_mod_hl2\client.dll
