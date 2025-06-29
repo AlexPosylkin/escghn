@@ -1,8 +1,0 @@
-﻿  Unable to load D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\devtools\bin\vpc.exe for comparison.
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: The command "if EXIST ..\..\..\game\mod_hl2\bin\.\client.dll for /f "delims=" %%A in ('attrib "..\..\..\game\mod_hl2\bin\.\client.dll"') do set valveTmpIsReadOnly="%%A"
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: set valveTmpIsReadOnlyLetter=%valveTmpIsReadOnly:~6,1%
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: if "%valveTmpIsReadOnlyLetter%"=="R" del /q "D:\PROJECTS\PROGRAMMING\SOURCEMOD\sp\src\game\client\Release_mod_hl2\"client.dll
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: if exist "..\..\devtools\bin\vpc.exe" "..\..\devtools\bin\vpc.exe" -crc2 "client_hl2.vcxproj"
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: if ERRORLEVEL 1 exit /b 1
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: 
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: :VCEnd" exited with code 1.

@@ -1,6 +1,0 @@
-^D:\PROJECTS\PROGRAMMING\SOURCEMOD\SP\SRC\PUBLIC\TIER0\POINTEROVERRIDE.ASM
-"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\ml.exe" /safeseh /c /Cp /Zi /Fo".\Debug_mod_hl2\\pointeroverride.obj" "D:\PROJECTS\PROGRAMMING\SOURCEMOD\sp\src\public\tier0\pointeroverride.asm"
-^D:\PROJECTS\PROGRAMMING\SOURCEMOD\SP\SRC\GAME\CLIENT\CLIENT_HL2.VPC
-if exist "..\..\devtools\bin\vpc.exe" "..\..\devtools\bin\vpc.exe" -crc2 "client_hl2.vcxproj"
-if ERRORLEVEL 1 exit /b 1
-echo crc_complete > D:\PROJECTS\PROGRAMMING\SOURCEMOD\sp\src\game\client\client_hl2.vpc.sentinel
