@@ -1,8 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "escghn/escghn_musicbox"
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[ 0.5 0.5 0.5 ]"
-	"$envmapcontrast" .5
-	"$envmapsaturation" .8
-}
