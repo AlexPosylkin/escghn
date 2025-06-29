@@ -3334,8 +3334,8 @@ void CFuncEscghnGun::DoMuzzleFlash(void)
 #define ESCGHNGUN_HEAVY_SHOT_INTERVAL	0.2f
 #define ESCGHNGUN_TRACEFREQENCY			2
 #define ESCGHNGUN_VECTOR_CONE_01		Vector(0.014,0.013,0.018) // Pretty small conus
-#define ESCGHNGUN_VECTOR_CONE_02		Vector(0.024,0.023,0.028) // Medium conus
-#define ESCGHNGUN_VECTOR_CONE_03		Vector(0.031,0.030,0.032) // Large conus
+//#define ESCGHNGUN_VECTOR_CONE_02		Vector(0.024,0.023,0.028) // Medium conus
+//#define ESCGHNGUN_VECTOR_CONE_03		Vector(0.031,0.030,0.032) // Large conus
 #define ESCGHNGUN_BARRELPOS_00			WorldBarrelPosition()
 #define ESCGHNGUN_BARRELPOS_01			WorldBarrelPosition1()
 #define ESCGHNGUN_BARRELPOS_02			WorldBarrelPosition2()
@@ -3422,7 +3422,8 @@ void CFuncEscghnGun::Fire(int bulletCount, const Vector& barrelEnd, const Vector
 
 	DoMuzzleFlash();
 
-	/*
+
+	/* //Optimization (sprite count limit)
 	if (gpGlobals->curtime >= m_flNextHeavyShotTime)
 	{
 		m_flNextHeavyShotTime = gpGlobals->curtime + ESCGHNGUN_HEAVY_SHOT_INTERVAL;
