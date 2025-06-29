@@ -1643,9 +1643,6 @@
     <ClInclude Include="hl2\npc_alyx_episodic.h">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClInclude>
-    <ClInclude Include="hl2\npc_antlion.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
     <ClInclude Include="hl2\npc_attackchopper.h">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClInclude>
@@ -3070,15 +3067,6 @@
     <ClCompile Include="hl2\npc_alyx_episodic.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\npc_antlion.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_antliongrub.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_antlionguard.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
     <ClCompile Include="hl2\npc_apcdriver.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
@@ -3128,12 +3116,6 @@
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
     <ClCompile Include="hl2\npc_crow.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_dog.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_eli.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
     <ClCompile Include="hl2\npc_enemyfinder.cpp">
