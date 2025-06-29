@@ -1,1 +1,2 @@
 D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\game\server\Debug_mod_hl2\server.dll
+D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\escghn\game\server\Debug_mod_hl2\server.dll

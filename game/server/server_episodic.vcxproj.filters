@@ -3130,12 +3130,6 @@
     <ClCompile Include="hl2\npc_crow.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\npc_dog.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_eli.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
     <ClCompile Include="hl2\npc_enemyfinder.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>

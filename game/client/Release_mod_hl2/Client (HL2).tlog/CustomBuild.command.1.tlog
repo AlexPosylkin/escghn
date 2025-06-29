@@ -1,6 +1,6 @@
-^D:\PROJECTS\PROGRAMMING\SOURCEMOD\ESCGHN\SP\SRC\PUBLIC\TIER0\POINTEROVERRIDE.ASM
-"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX86\x86\ml.exe" /safeseh /c /Cp /Zi /Fo".\Release_mod_hl2\\pointeroverride.obj" "D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\public\tier0\pointeroverride.asm"
-^D:\PROJECTS\PROGRAMMING\SOURCEMOD\ESCGHN\SP\SRC\GAME\CLIENT\CLIENT_HL2.VPC
+^D:\PROJECTS\PROGRAMMING\SOURCEMOD\ESCGHN\ESCGHN\PUBLIC\TIER0\POINTEROVERRIDE.ASM
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\ml.exe" /safeseh /c /Cp /Zi /Fo".\Release_mod_hl2\\pointeroverride.obj" "D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\escghn\public\tier0\pointeroverride.asm"
+^D:\PROJECTS\PROGRAMMING\SOURCEMOD\ESCGHN\ESCGHN\GAME\CLIENT\CLIENT_HL2.VPC
 if exist "..\..\devtools\bin\vpc.exe" "..\..\devtools\bin\vpc.exe" -crc2 "client_hl2.vcxproj"
 if ERRORLEVEL 1 exit /b 1
 echo crc_complete > D:\PROJECTS\PROGRAMMING\SOURCEMOD\escghn\sp\src\game\client\client_hl2.vpc.sentinel

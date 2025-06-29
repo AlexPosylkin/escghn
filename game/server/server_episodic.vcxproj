@@ -185,7 +185,7 @@ if ERRORLEVEL 1 exit /b 1
       <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
       <BrowseInformation>false</BrowseInformation>
       <WarningLevel>Level4</WarningLevel>
-      <TreatWarningAsError>true</TreatWarningAsError>
+      <TreatWarningAsError>false</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <CompileAs>CompileAsCpp</CompileAs>
       <UseFullPaths>true</UseFullPaths>
@@ -1376,8 +1376,6 @@ exit 1
     <ClCompile Include="hl2\npc_combines.cpp" />
     <ClCompile Include="hl2\npc_cranedriver.cpp" />
     <ClCompile Include="hl2\npc_crow.cpp" />
-    <ClCompile Include="hl2\npc_dog.cpp" />
-    <ClCompile Include="hl2\npc_eli.cpp" />
     <ClCompile Include="hl2\npc_enemyfinder.cpp" />
     <ClCompile Include="hl2\npc_fastzombie.cpp" />
     <ClCompile Include="hl2\npc_fisherman.cpp" />
