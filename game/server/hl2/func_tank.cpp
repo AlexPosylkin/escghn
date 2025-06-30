@@ -3422,8 +3422,8 @@ void CFuncEscghnGun::Fire(int bulletCount, const Vector& barrelEnd, const Vector
 
 	DoMuzzleFlash();
 
-
-	/* //Optimization (sprite count limit)
+	//Optimization (sprite count limit)
+	/* 
 	if (gpGlobals->curtime >= m_flNextHeavyShotTime)
 	{
 		m_flNextHeavyShotTime = gpGlobals->curtime + ESCGHNGUN_HEAVY_SHOT_INTERVAL;
