@@ -1,43 +1,55 @@
-               SOURCE 1 SDK LICENSE
+# Blue Archive: Escape from Gehenna
 
-Source SDK Copyright(c) Valve Corp.  
+**Blue Archive: Escape from Gehenna** is a fan-made modification built on the **Source Engine** using **Source SDK Base**.
+The mod is inspired by the *Blue Archive* universe and follows an original story in which **Sensei escapes from Gehenna Prison**.
 
-THIS DOCUMENT DESCRIBES A CONTRACT BETWEEN YOU AND VALVE 
-CORPORATION ("Valve").  PLEASE READ IT BEFORE DOWNLOADING OR USING 
-THE SOURCE ENGINE SDK ("SDK"). BY DOWNLOADING AND/OR USING THE 
-SOURCE ENGINE SDK YOU ACCEPT THIS LICENSE. IF YOU DO NOT AGREE TO 
-THE TERMS OF THIS LICENSE PLEASE DON�T DOWNLOAD OR USE THE SDK.  
+## About the Project
 
-  You may, free of charge, download and use the SDK to develop a modified Valve game 
-running on the Source engine.  You may distribute your modified Valve game in source and 
-object code form, but only for free. Terms of use for Valve games are found in the Steam 
-Subscriber Agreement located here: http://store.steampowered.com/subscriber_agreement/ 
+This project expands the Source SDK Base framework with custom gameplay logic, scripted entities, and gameplay-oriented systems.
+The main goal of the mod is to create a story-driven Source Engine experience set in a fan interpretation of the *Blue Archive* world, combining classic Source-style gameplay with original scenarios, environments, and mechanics.
 
-  You may copy, modify, and distribute the SDK and any modifications you make to the 
-SDK in source and object code form, but only for free.  Any distribution of this SDK must 
-include this LICENSE file and thirdpartylegalnotices.txt.  
- 
-  Any distribution of the SDK or a substantial portion of the SDK must include the above 
-copyright notice and the following: 
+## Features
 
-    DISCLAIMER OF WARRANTIES.  THE SOURCE SDK AND ANY 
-    OTHER MATERIAL DOWNLOADED BY LICENSEE IS PROVIDED 
-    "AS IS".  VALVE AND ITS SUPPLIERS DISCLAIM ALL 
-    WARRANTIES WITH RESPECT TO THE SDK, EITHER EXPRESS 
-    OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED 
-    WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, 
-    TITLE AND FITNESS FOR A PARTICULAR PURPOSE.  
+* New custom entity classes for in-game objects
+* Story-driven gameplay scenario
+* Fan-made setting inspired by **Blue Archive**
+* Original plot focused on Sensei’s escape from Gehenna Prison
 
-    LIMITATION OF LIABILITY.  IN NO EVENT SHALL VALVE OR 
-    ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, 
-    INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER 
-    (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF 
-    BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF 
-    BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) 
-    ARISING OUT OF THE USE OF OR INABILITY TO USE THE 
-    ENGINE AND/OR THE SDK, EVEN IF VALVE HAS BEEN 
-    ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  
- 
-       
-If you would like to use the SDK for a commercial purpose, please contact Valve at 
-sourceengine@valvesoftware.com.
+## Story
+
+Sensei finds himself imprisoned inside Gehenna Prison, a dangerous and chaotic place controlled by one of Kivotos’ most infamous academies.
+With limited resources, hostile forces, and no easy way out, Sensei must navigate the prison, overcome obstacles, and find a way to escape.
+This mod tells an original fan story and is not intended to replace or retell any official *Blue Archive* content.
+
+## Technologies Used
+
+* **Source Engine**
+* **Source SDK Base**
+* **C++**
+* **HLSL**
+* **Visual Studio**
+* **Hammer Editor**
+
+## Project Status
+
+The project is currently in development.
+Planned and experimental features may change over time as the mod evolves.
+
+## Installation
+
+Installation instructions will be added later. //TODO
+
+## Building
+
+Build instructions will be added later. //TODO
+
+## Disclaimer
+
+This is an unofficial fan-made project.
+*Blue Archive* and all related characters, names, and concepts belong to their respective owners.
+This project is not affiliated with, endorsed by, or sponsored by Nexon, NAT Games, Valve, or any other rights holder.
+The project is created for non-commercial fan and educational purposes only.
+
+## License
+
+License information will be added later. //TODO
